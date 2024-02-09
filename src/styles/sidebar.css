@@ -1,6 +1,5 @@
 body {
     background-color: #000;
-    background-color: #b35252;
     font-family: var(--font);
     color: var(--text-base-light);
 }
@@ -13,20 +12,18 @@ body {
     width: 300px;
 }
 
-.sidebar__navigation { /*OK*/
+.sidebar__navigation {
     background-color: #121212; 
     border-radius: 8px;
 }
 
-.sidebar .logo { /*OK*/
-    /*background-color: #121212; 
-    background-color: purple;*/
+.sidebar .logo { 
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
-.sidebar .logo img { /*OK*/
+.sidebar .logo img {
     width: 80px;
 }
 
@@ -149,14 +146,14 @@ section .section__button {
     margin: 25px 20px;
 }
 
-.sidebar .cookies a {/*OK c/ algumas modificações minhas */
+.sidebar .cookies a {
     color: #b3b3b3;
     font-weight: 400;
     font-size: var(--text-size-smaller-2);
     text-decoration: none;
 }
 
-.languages .languages__button {/*OK*/
+.languages .languages__button {
     align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
@@ -171,7 +168,6 @@ section .section__button {
 
 
 
-
 /* HOVER */
 
 .sidebar ul li a:hover,
@@ -181,6 +177,7 @@ section .section__button {
 }
 
 section .section__button:hover {
+    background-color: var(--bg-button-hover);
     transform: scale(1.05);
 }
 

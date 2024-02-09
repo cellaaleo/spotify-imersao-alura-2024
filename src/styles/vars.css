@@ -10,7 +10,8 @@
 
     /* Buttons */
     --text-button: #000;
-    --bg-button:#f6f6f6;
+    --bg-button:#fff;
+    --bg-button-hover:#f6f6f6;
 
 
     /* Colors Cards */

@@ -1,0 +1,51 @@
+.signup-bar {
+    background: linear-gradient(90deg, #af2896, #509bf5);
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px 7px 15px;
+    margin: 8px;
+    gap: 24px;
+}
+
+.signup-bar .text {
+    color: #fff;
+    flex-shrink: 0;
+    font-family: var(--font);
+    margin-bottom: 4px;
+}
+
+.signup-bar .text .title {
+    font-size: var(--text-size-smaller);
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+.signup-bar .text .subtitle {
+    font-size: var(--text-size-base);
+    font-weight: 400;
+}
+
+.signup-bar button {
+    height: 48px;
+    font-family: var(--font);
+    font-size: var(--text-size-base);
+    font-weight: 700;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 8px 32px;
+    background-color: var(--bg-button);
+}
+
+.signup-bar button:hover {
+    transform: scale(1.04);
+    background-color: var(--bg-button-hover);
+    transition-duration: 33ms;
+}
