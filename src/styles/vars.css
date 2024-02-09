@@ -10,6 +10,10 @@
     --bg-top-bar: #61616142;
     --bg-arrow-color: rgba(0,0,0,0.7);
 
+    /* tooltip */
+    --background-highlight: #1a1a1a;
+    --background-highlight: #242424;
+
     /* FONT */
     --font-dm-sans: "DM Sans", sans-serif;
     --font-lato: 'Lato', sans-serif;
@@ -28,6 +32,7 @@
 
 
     /* Colors Cards */
+    /*
     --card1: rgb(0, 100, 80);
     --card2: rgb(132, 0, 231);
     --card3: rgb(30, 50, 100);
@@ -43,7 +48,8 @@
     --card13: rgb(186, 93, 7);
     --card14: rgb(0, 30, 80);
     --card15: rgb(60, 30, 80);
-
+    */
+    
     /*GRID*/
     --grid-gap: 24px;
     --column-count: 5;

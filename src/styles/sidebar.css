@@ -188,3 +188,20 @@ section .section__button:hover {
     transform: scale(1.05);
     border-color: #fff;
 }
+
+
+/* TOOLTIP */
+
+#tooltip_1,
+#tooltip_2 {
+    display: none; 
+    position: absolute;
+    background-color: var(--background-highlight);
+    color: #fff;
+    font-size: var(--text-size-smaller);
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    
+}
