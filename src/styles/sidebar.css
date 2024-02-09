@@ -4,7 +4,7 @@ body {
     color: var(--text-base-light);
 }
 
-.sidebar { /*OK*/
+.sidebar {
     position: fixed; 
     top: 0; 
     left: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #121212; 
+    background-color: var(--bg-base); 
     border-radius: 8px;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .sidebar ul li a {
-    color: #b3b3b3;
+    color: var(--text-sub);
     text-decoration: none;
     font-weight: 700;
     font-size: var(--text-size-base);
@@ -51,8 +51,7 @@ body {
 }
 
 .library {
-    background-color: #121212; 
-    color: #b3b3b3;
+    background-color: var(--bg-base); 
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -68,7 +67,7 @@ body {
 
 .library .library__button {
     background-color: transparent;
-    color: #b3b3b3;
+    color: var(--text-sub);
     display: flex;
     margin-right: 10px;
     border: 0px; 
@@ -98,7 +97,7 @@ body {
 }
 
 .sections section {
-    background-color: #242424;
+    background-color: var(--bg-elevated-base);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -147,7 +146,7 @@ section .section__button {
 }
 
 .sidebar .cookies a {
-    color: #b3b3b3;
+    color: var(--text-sub);
     font-weight: 400;
     font-size: var(--text-size-smaller-2);
     text-decoration: none;

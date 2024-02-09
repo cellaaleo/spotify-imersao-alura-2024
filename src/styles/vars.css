@@ -2,11 +2,24 @@
     /* Colors */
     --text-base-dark: #000;
     --text-base-light: #fff;
-    --text-sub: #a7a7a7;
+    --text-sub: #b3b3b3;
 
+    --bg-base: #121212;
+    --bg-elevated-base: #242424;
     --bg-icon: #131313;
     --bg-top-bar: #61616142;
     --bg-arrow-color: rgba(0,0,0,0.7);
+
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+    --font-lato: 'Lato', sans-serif;
+    --font: 'Lato', sans-serif;
+
+    /* FONT SIZE */
+    --text-size-base: 1rem;
+    --text-size-smaller: 0.875rem;
+    --text-size-smaller-2: 0.75rem;
+    --fa-size: 20px;
 
     /* Buttons */
     --text-button: #000;
@@ -34,17 +47,6 @@
     /*GRID*/
     --grid-gap: 24px;
     --column-count: 5;
-
-
-    /* FONT */
-    --font-dm-sans: "DM Sans", sans-serif;
-    --font-lato: 'Lato', sans-serif;
-    --font: 'Lato', sans-serif;
-
-    /* FONT SIZE */
-    --text-size-base: 1rem;
-    --text-size-smaller: 0.875rem;
-    --text-size-smaller-2: 0.75rem;
-    --fa-size: 20px;
+    
 }
 
